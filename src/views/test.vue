@@ -90,10 +90,6 @@ export default {
       requestAnimationFrame(this.anmiation);
       this.mesh.rotation.x += 0.01;
       this.mesh.rotation.y += 0.01;
-      // this.ball_mesh.translateOnAxis(
-      //   new THREE.Vector3(1, 0, 0).normalize(),
-      //   10
-      // );
       if (this.ball_mesh.position.y <= 20) {
         this.ball_mesh.position.y += 0.1;
       } else {
